@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Ismaila</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <script>
+            document.addEventListener("DOMContentLoaded", function(){
+                let worth = document.querySelector("#worth");
+                let status = document.querySelector("#status");
+
+                worth.addEventListener("click", function(){
+                    worth.style.backgroundColor = "brown";
+                    worth.innerHTML = "worth 4 boxers and 2 vests";
+                })
+                status.addEventListener("click", function(){
+                    status.style.backgroundColor = "blue";
+                    status.innerHTML = "weyrey level";
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <img width = "720" src="ismaila.jpg">
+        <div class="header">
+            <h>
+                Ismaila is the first born of the family.
+            </h>
+            </div>
+            <div class="container">
+            <p>
+                Ismaila was born on the 31st day of october, 1994. He is a graduate of Biochemistry from the university of maiduguri,
+                he graduated in 2017, he barely remembers anything from his days as a biochemistry student but here he is learning computer
+                science like some kind of genius even though he doesn't understand most of these things, he is determined to understand and
+                hopefully, he will.
+            </p>
+            <button id="status">Relationship status</button>
+            <button id="worth">Worth</button>
+            <p>Ismaila has 4 siblings who could be looked up by clicking any of the links below;</p>
+            <ul>
+                <li><a href="jambo.html">Jambo Zhari</a></li>
+                <li><a href="awa.html">Awa Zhari Hindi</a></li>
+                <li><a href="usa.html">Usakahyel Zhari Nggada</a></li>
+                <li><a href="nana.html">Nana Zhari</a></li>
+            </ul>
+            <button id="home">
+                <a href="index.html">Home</a>
+            </button>
+        </div>
+        </body>
+</html>

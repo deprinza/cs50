@@ -1,0 +1,25 @@
+body {
+    background-color: #10223e;
+    color: yellow;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h{
+    font-size: 3rem;
+    color: yellow;
+    text-align: left
+}
+p{
+    text-align: justify;
+    color:
+}
+button{
+    background-color: green;
+    text-align: left
+}
+#home{
+    background-color: #10223e;
+    text-align: justify;
+    border: dashed yellow 2pt;
+}
